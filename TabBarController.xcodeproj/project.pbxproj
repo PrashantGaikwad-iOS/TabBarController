@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		890A7E2521A1CBC800D78777 /* Purple.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890A7E2421A1CBC800D78777 /* Purple.storyboard */; };
+		890A7E2721A1CBDD00D78777 /* Green.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890A7E2621A1CBDD00D78777 /* Green.storyboard */; };
+		890A7E2921A1CBED00D78777 /* Yellow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890A7E2821A1CBEC00D78777 /* Yellow.storyboard */; };
+		890A7E2B21A1CBFC00D78777 /* Orange.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890A7E2A21A1CBFC00D78777 /* Orange.storyboard */; };
+		890A7E2D21A1CF9B00D78777 /* SubPurple.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890A7E2C21A1CF9B00D78777 /* SubPurple.storyboard */; };
 		89DFDD3C21A1B9AE008390C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DFDD3B21A1B9AE008390C8 /* AppDelegate.swift */; };
 		89DFDD3E21A1B9AE008390C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DFDD3D21A1B9AE008390C8 /* ViewController.swift */; };
 		89DFDD4121A1B9AE008390C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DFDD3F21A1B9AE008390C8 /* Main.storyboard */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		890A7E2421A1CBC800D78777 /* Purple.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Purple.storyboard; sourceTree = "<group>"; };
+		890A7E2621A1CBDD00D78777 /* Green.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Green.storyboard; sourceTree = "<group>"; };
+		890A7E2821A1CBEC00D78777 /* Yellow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Yellow.storyboard; sourceTree = "<group>"; };
+		890A7E2A21A1CBFC00D78777 /* Orange.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Orange.storyboard; sourceTree = "<group>"; };
+		890A7E2C21A1CF9B00D78777 /* SubPurple.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SubPurple.storyboard; sourceTree = "<group>"; };
 		89DFDD3821A1B9AE008390C8 /* TabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89DFDD3B21A1B9AE008390C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89DFDD3D21A1B9AE008390C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +45,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		890A7E2321A1CB9700D78777 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				89DFDD3F21A1B9AE008390C8 /* Main.storyboard */,
+				890A7E2421A1CBC800D78777 /* Purple.storyboard */,
+				890A7E2C21A1CF9B00D78777 /* SubPurple.storyboard */,
+				890A7E2621A1CBDD00D78777 /* Green.storyboard */,
+				890A7E2821A1CBEC00D78777 /* Yellow.storyboard */,
+				890A7E2A21A1CBFC00D78777 /* Orange.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
 		89DFDD2F21A1B9AD008390C8 = {
 			isa = PBXGroup;
 			children = (
@@ -54,9 +77,9 @@
 		89DFDD3A21A1B9AE008390C8 /* TabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				890A7E2321A1CB9700D78777 /* StoryBoards */,
 				89DFDD3B21A1B9AE008390C8 /* AppDelegate.swift */,
 				89DFDD3D21A1B9AE008390C8 /* ViewController.swift */,
-				89DFDD3F21A1B9AE008390C8 /* Main.storyboard */,
 				89DFDD4221A1B9B1008390C8 /* Assets.xcassets */,
 				89DFDD4421A1B9B1008390C8 /* LaunchScreen.storyboard */,
 				89DFDD4721A1B9B1008390C8 /* Info.plist */,
@@ -122,9 +145,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				890A7E2921A1CBED00D78777 /* Yellow.storyboard in Resources */,
+				890A7E2521A1CBC800D78777 /* Purple.storyboard in Resources */,
 				89DFDD4621A1B9B1008390C8 /* LaunchScreen.storyboard in Resources */,
 				89DFDD4321A1B9B1008390C8 /* Assets.xcassets in Resources */,
 				89DFDD4121A1B9AE008390C8 /* Main.storyboard in Resources */,
+				890A7E2D21A1CF9B00D78777 /* SubPurple.storyboard in Resources */,
+				890A7E2721A1CBDD00D78777 /* Green.storyboard in Resources */,
+				890A7E2B21A1CBFC00D78777 /* Orange.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
